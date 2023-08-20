@@ -7,7 +7,7 @@
 1. Faça o download dos arquivos.
 2. Extraia o pacote e copie para seu webserver.
 3. Rode o comando `composer install --no-dev` a partir da raiz do projeto.
-4. Acesse sua URL e inicie a instalação, é bem simples, basta preencher as informações no assistente de instalação **MAPOS**.
+4. Acesse sua URL e inicie a instalação, é bem simples, basta preencher as informações no assistente de instalação.
 5. Configure o email de envio no arquivo email.php.
 6. Configurar cron jobs para envio de e-mail:
     ##### Enviar emails pendentes a cada 2 minutos.
@@ -45,7 +45,7 @@
 ### Atualização via sistema
 
 1. Primeiro é necessário atualizar manualmente o sistema para a versão v4.4.0;
-2. Quando estiver nessa versão é possível atualizar o sistema clicando no botão "Atualizar Mapos" em Sistema >> Configurações;
+2. Quando estiver nessa versão é possível atualizar o sistema clicando no botão "Atualizar Organize" em Sistema >> Configurações;
 3. Serão baixados e atualizados todos os arquivos exceto: `config.php`, `database.php` e `email.php`;
 
 ### Comandos de terminal
