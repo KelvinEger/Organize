@@ -30,3 +30,5 @@ ci_sessions/
 
 uploads
 /nbproject/private/
+application/config/database.php
+index.php
