@@ -210,7 +210,7 @@ class Github_updater
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLINFO_HEADER_OUT, true);
         curl_setopt($ch, CURLOPT_HTTPHEADER, [
-            'User-Agent: Mapos'
+            'User-Agent: Organize'
         ]);
 
         $response = curl_exec($ch);
@@ -251,7 +251,7 @@ class Github_updater
     /**
     * Get Organize current version.
     *
-    * @return string Mapos current version.
+    * @return string Organize current version.
     */
     private function getCurrentVersion()
     {

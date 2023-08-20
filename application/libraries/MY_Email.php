@@ -10,7 +10,7 @@
  * @link    http://www.meau.com.br/
  * @license http://www.opensource.org/licenses/mit-license.html
  *
- * Updated by @RamonSilva for Map-OS
+ * Updated by @RamonSilva
  */
 class MY_Email extends CI_Email
 {
