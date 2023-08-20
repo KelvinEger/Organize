@@ -1,16 +1,6 @@
-
-![MapOS](https://raw.githubusercontent.com/RamonSilva20/mapos/master/assets/img/logo.png)
-
 ![version](https://img.shields.io/badge/version-4.40.0-blue.svg?longCache=true&style=flat-square)
 ![license](https://img.shields.io/badge/license-MIT-green.svg?longCache=true&style=flat-square)
 ![theme](https://img.shields.io/badge/theme-Matrix--Admin-lightgrey.svg?longCache=true&style=flat-square)
-![issues](https://img.shields.io/github/issues/RamonSilva20/mapos.svg?longCache=true&style=flat-square)
-![contributors](https://img.shields.io/github/contributors/RamonSilva20/mapos.svg?longCache=true&style=flat-square)
-
-### Contato: contato@mapos.com.br
-### [Feedback](https://github.com/RamonSilva20/mapos/discussions) - Vote ou sugira melhorias
-
-![Map-OS](https://raw.githubusercontent.com/RamonSilva20/mapos/master/docs/dashboard.png)
 
 ### [Instalação](Instalacao_xampp_windows.md)
 
@@ -28,26 +18,6 @@
     ##### Obs: O path até o index.php (/var/www/) deve ser configurado conforme o seu ambiente
 
 
-### Instalação (Docker)
-
-1. Faça o download dos arquivos.
-2. Instale o [Docker](https://docs.docker.com/install/) e o [Docker Compose](https://docs.docker.com/compose/install/).
-3. Entre na pasta `docker` no seu terminal e rode o comando `docker-compose up --force-recreate`.
-4. Acesse a URL `http://localhost:8000/` no navegador e inicie a instalação.
-5. Na etapa de configuração use as seguintes configurações:
-```
-1. Por favor, insira as informações da sua conexão de banco de dados.
-Host: mysql
-Usuário: mapos
-Senha: mapos
-Banco de Dados: mapos
-
-2. Por favor, insira as informações para sua conta de administrador.
-Configure do jeito que quiser.
-
-3. Por favor, insira a URL.
-URL: http://localhost:8000/
-```
 6. Configure o email de envio no arquivo email.php.
 
     ##### Obs: Cuide da pasta `docker/data`, onde é pasta que o mysql do docker salva os arquivos. Se for deletada você perderá seu banco de dados.
@@ -95,18 +65,3 @@ Para listar todos os comandos de terminal disponíveis, basta executar o comando
 * PHP >= 8.1
 * MySQL
 * Composer
-
-### Doações
-
-Gosta do mapos e gostaria de contribuir com seu desenvolvimento?
-
-Doações podem ser realizadas nos links:
-* [catarse/mapos](https://www.catarse.me/mapos) - Mensal
-* [kofi/mapos](https://ko-fi.com/mapos) - Exporádica
-
-### Contribuidores
-[![Contribuidores](https://contrib.rocks/image?repo=RamonSilva20/mapos)](https://github.com/RamonSilva20/mapos/graphs/contributors)
-
-## Autor
-| [<img src="https://avatars.githubusercontent.com/RamonSilva20?s=115"><br><sub>Ramon Silva</sub>](https://github.com/RamonSilva20) |
-| :---: |
