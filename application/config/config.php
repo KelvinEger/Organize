@@ -14,7 +14,7 @@ $config['app_name'] = 'Organize';
 /**
  * Descrição do sistema
  */
-$config['app_subname'] = 'Sistema de Controle de Ordens de Serviço';
+$config['app_subname'] = 'Simplificando o Sucesso do Seu Negócio';
 
 /**
  * Definição da hora local.
